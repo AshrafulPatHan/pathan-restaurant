@@ -2,6 +2,7 @@ import ReactDOM from "react-dom/client";
 import { BrowserRouter, Routes, Route } from "react-router";
 import App from "./App";
 import "./index.css"
+import "./page/ui/Ui.css"
 
 const root = document.getElementById("root") as HTMLElement;
 
