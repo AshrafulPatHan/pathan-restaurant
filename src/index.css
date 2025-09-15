@@ -1,10 +1,58 @@
 @import "tailwindcss";
 
 :root {
-    /* --pc: #232032; primary color */
+    /* --pc: #232032; primary color */ 
     /* --sc: #C19D60; primary color */
-    --pc: #232032; /* primary color */
+    --black: #1E1E1E; /* black color */
+    --pc: 	hsl(250, 22%, 16%); /* primary color 1 #232032 */
+    --pc2: 	hsl(248, 14%, 22%); /* primary color 2 #32303F */
+    --pc3: 	hsl(248, 18%, 18%); /* primary color 3 #272535 */
     --sc: #C19D60; /* secondary color */
 }
 
 
+/* Utility classes */
+@layer utilities {
+    /* background color */
+    .bg-primary {
+        @apply bg-[var(--pc)];
+    }
+    .bg-primary2 {
+        @apply bg-[var(--pc2)];
+    }
+    .bg-primary3 {
+        @apply bg-[var(--pc3)];
+    }
+    .bg-black {
+        @apply bg-[var(--black)];
+    }
+    .bg-sec {
+        @apply bg-[var(--sc)];
+    }
+    /* font color */
+    .text-black-c {
+        @apply text-[var(--black)];
+    }
+    .text-primary-c {
+        @apply text-[var(--pc)];
+    }
+    .text-primary2-c {
+        @apply text-[var(--pc2)];
+    }
+    .text-primary3-c {
+        @apply text-[var(--pc3)];
+    }.text-c-sec {
+        @apply text-[var(--sc)];
+    }
+    /* flex box */
+    .flex-center {
+        @apply flex flex-col items-center justify-center;
+    }
+    .flex-column {
+        @apply flex flex-col items-center ;
+    }
+    .flex-row-center {
+        @apply flex flex-row items-center ;
+    }
+    
+}
