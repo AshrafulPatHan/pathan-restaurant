@@ -19,4 +19,5 @@
     .btn-border-black {
         @apply px-12 py-4 text-sm border-2 border-[var(--pc2)] text-white rounded-lg font-semibold hover:bg-[var(--pc2)] transition-colors;
     }
+
 }
