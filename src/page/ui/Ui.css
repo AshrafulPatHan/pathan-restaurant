@@ -1,3 +1,22 @@
 @import "tailwindcss";
 
+/* utilities class */
+@layer utilities {
 
+    /* background color */
+    .btn-primary {
+        @apply px-12 py-4 text-sm bg-[var(--sc)] text-white rounded-lg font-semibold hover:bg-[var(--pc2)] transition-colors;
+    }
+
+    .btn-sec {
+        @apply px-12 py-4 text-sm bg-[var(--pc2)] text-white rounded-lg font-semibold hover:bg-[var(--sc)] transition-colors;
+    }
+
+    .btn-border {
+        @apply px-12 py-4 text-sm border-2 border-[var(--sc)] text-white rounded-lg font-semibold hover:bg-[var(--sc)] transition-colors;
+    }
+
+    .btn-border-black {
+        @apply px-12 py-4 text-sm border-2 border-[var(--pc2)] text-white rounded-lg font-semibold hover:bg-[var(--pc2)] transition-colors;
+    }
+}

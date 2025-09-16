@@ -51,6 +51,9 @@
     .flex-column {
         @apply flex flex-col items-center ;
     }
+    .flex-start {
+        @apply flex flex-col ;
+    }
     .flex-row-center {
         @apply flex flex-row items-center ;
     }
