@@ -57,5 +57,9 @@
     .flex-row-center {
         @apply flex flex-row items-center ;
     }
+    /* text style */
+    .text-heading{
+        @apply font-bold text-white text-4xl ;
+    }
     
 }

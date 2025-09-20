@@ -8,7 +8,7 @@ const Navbar = () => {
     const [isOpen, setIsOpen] = useState(false);
 
     return (
-        <div className="sticky top-0 z-50">
+        <div className="fixed top-0 left-0 w-full z-50 shadow-md">
             <header className="bg-primary3 text-white w-full shadow-md">
                 <div className="max-w-[1170px] mx-auto flex items-center justify-between p-4">
                     {/* Logo */}
