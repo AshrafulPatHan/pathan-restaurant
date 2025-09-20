@@ -11,7 +11,7 @@ import Navbar from './components/navigation/Navbar'
 function App() {
 
   return (
-    <div>
+    <div className='max-w-screen overflow-x-hidden'>
       <Navbar/>
       <Hero/>
       <AboutUs/>

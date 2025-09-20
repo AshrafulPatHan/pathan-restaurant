@@ -1,9 +1,87 @@
-
+import { useState } from "react";
+import { Link } from "react-router";
+import CartIcon from "../../assets/icon/cart.svg";
+import Menu from "../../assets/icon/menu.svg";
+import X from "../../assets/icon/menu.svg";
 
 const Navbar = () => {
+    const [isOpen, setIsOpen] = useState(false);
+
     return (
-        <div>
-            
+        <div className="sticky top-0 z-50">
+            <header className="bg-primary3 text-white w-full shadow-md">
+                <div className="max-w-[1170px] mx-auto flex items-center justify-between p-4">
+                    {/* Logo */}
+                    <div className="flex items-center gap-2">
+                        <img
+                            className="w-[50px] h-[50px] object-contain"
+                            src="/MyLogobg.png"
+                            alt="logo"
+                        />
+                        <span className="text-xl font-bold tracking-wide">PATHAN RESTAURANT</span>
+                    </div>
+
+                    {/* Desktop Menu */}
+                    <nav className="hidden lg:flex gap-6 text-white/80 font-medium">
+                        <Link to="/">HOME</Link>
+                        <Link to="/">ABOUT US</Link>
+                        <Link to="/">MENU</Link>
+                        <Link to="/">CONTACTS</Link>
+                        <Link to="/">BLOG</Link>
+                    </nav>
+
+                    {/* Cart & Reservation */}
+                    <div className="hidden lg:flex items-center gap-4">
+                        <button className="bg-white rounded-full p-[8px]">
+                            <img
+                                src={CartIcon}
+                                className="w-[20px] h-[20px]"
+                                alt="cart icon"
+                            />
+                        </button>
+                        <Link
+                            to="/"
+                            className="btn-primary"
+                        >
+                            RESERVATION
+                        </Link>
+                    </div>
+
+                    {/* Mobile Hamburger */}
+                    <button
+                        onClick={() => setIsOpen(!isOpen)}
+                        className="lg:hidden text-white focus:outline-none"
+                    >
+                        {isOpen ? <img src={X} alt="close icon" /> : <img src={Menu} alt="menu icon" />}
+                    </button>
+                </div>
+
+                {/* Mobile Menu */}
+                {isOpen && (
+                    <div className="lg:hidden bg-primary3 text-white/80 flex flex-col gap-4 p-4">
+                        <Link to="/" onClick={() => setIsOpen(false)}>HOME</Link>
+                        <Link to="/" onClick={() => setIsOpen(false)}>ABOUT US</Link>
+                        <Link to="/" onClick={() => setIsOpen(false)}>MENU</Link>
+                        <Link to="/" onClick={() => setIsOpen(false)}>CONTACTS</Link>
+                        <Link to="/" onClick={() => setIsOpen(false)}>BLOG</Link>
+                        <div className="flex items-center justify-between mt-4">
+                            <button className="bg-white rounded-full p-[8px]">
+                                <img
+                                    src={CartIcon}
+                                    className="w-[26px] h-[26px]  "
+                                    alt="cart icon"
+                                />
+                            </button>
+                            <Link
+                                to="/"
+                                className="btn-primary"
+                            >
+                                RESERVATION
+                            </Link>
+                        </div>
+                    </div>
+                )}
+            </header>
         </div>
     );
 };
