@@ -5,7 +5,7 @@
 
     /* background color */
     .btn-primary {
-        @apply px-12 py-4 text-sm bg-[var(--sc)] text-white rounded-lg font-semibold hover:bg-[var(--pc2)] transition-colors;
+        @apply px-12 py-4 text-sm bg-[var(--sc)] text-white rounded-lg font-semibold hover:bg-[var(--pc2)] transition-colors ;
     }
 
     .btn-sec {
