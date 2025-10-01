@@ -1,9 +1,37 @@
+import Footer from "../../components/navigation/Footer";
+import Navbar from "../../components/navigation/Navbar";
+
 
 
 const MenuPage = () => {
     return (
         <div>
-            
+            <Navbar />
+            {/* section 1 */}
+            <div className="background-image-menu h-[50vw] lg:h-[30vw] mt-m flex-center ">
+                <p className="text-c-sec italic">Enjoy your time in our restaurant with pleasure</p>
+                <h3 className="text-heading">Our Awesome Menu</h3>
+            </div>
+            <div className="mt-h">
+                <div>
+                    <div className="w-[450px] h-[300px] ">
+                        <img src="https://i.ibb.co.com/9Q7ndNr/pexels-janetrangdoan-769969.jpg" alt="menu" className="w-full h-full object-cover rounded-t-lg " />
+                    </div>
+                    <div className="w-[450px] h-[185px] rounded-b-lg bg-white border border-dotted p-4 " >
+                        <div className="flex justify-between pt-5 mb-3">
+                            <h4 className="text-lg font-bold text-c-sec">Soft Shell Crab</h4>
+                            <p className="text-xs text-c-sec">Sale -30%</p>
+                        </div>
+                        <p className="text-sm text-black/70">Seasoned with an herb crust, served with au jus and handcarved to order.</p>
+                        <hr className="border border-dashed text-[#0000001a] mt-3 " />
+                        <div className="flex justify-between pt-5">
+                            <p>Price:<span>$29</span></p>
+                            <button className="px-3 py-1  text-xs text-c-sec border border-[#0000004b] shadow-2xl rounded-sm ">Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <Footer />
         </div>
     );
 };
