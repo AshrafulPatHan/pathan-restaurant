@@ -1,0 +1,25 @@
+
+/* hero image */
+.background-image{
+    background-image: url("https://i.ibb.co.com/8nfvPnkk/pexels-dhayaeddart-5276663.jpg");
+    width: 100vw;
+    background-repeat: no-repeat;
+    background-size: cover;
+    object-fit: cover;
+    background-position: center center;
+}
+
+/* about data */
+.data-main {
+    background-image: url("https://i.ibb.co.com/C5f3DV7Z/eiliv-aceron-Zu-IDLSz3-XLg-unsplash.jpg");
+    display: inline-flex;
+    width: 100vw;
+    height: 300px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+
+
