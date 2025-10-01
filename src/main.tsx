@@ -11,6 +11,7 @@ import ContactPage from "./page/contacts/ContactPage";
 import GalleryPage from "./page/gallery/Gallery";
 import MenuPage from "./page/menu/MenuPage";
 import Reservation from "./page/Reservation/Reservation";
+import About_us from "./page/about/About_us";
 
 
 const root = document.getElementById("root") as HTMLElement;
@@ -20,6 +21,7 @@ ReactDOM.createRoot(root).render(
     <Routes>
       <Route path="/" element={<App />} />
       <Route path="/ui" element={<Ui />} />
+      <Route path="/about" element={<About_us />} />
       <Route path="/blog" element={<BlogPage />} />
       <Route path="/cart" element={<CartPage />} />
       <Route path="/contact" element={<ContactPage />} />
