@@ -1,7 +1,4 @@
 
-import redytabil from "../../assets/image/redytabil.jpg";
-import picake from "../../assets/image/piecake.jpg";
-import itemsmenu from "../../assets/image/menuitems.jpg";
 import CornBig from "../../assets/icon/menu.svg";
 
 
@@ -15,11 +12,11 @@ const Chefs = () => {
                     <img src={CornBig} alt="" />
                     <div className="flex flex-col lg:flex-row items-center gap-5">
                        <div>
-                        <div className="w-[430px] h-[280px] ">
+                        <div className="w-[430px] h-[280px]  ">
                             <img src="https://i.ibb.co.com/My1q5RD7/elone.webp" alt="chefs"
-                            className="w-full h-full object-cover" />
+                            className="w-full h-full object-cover rounded-xl" />
                         </div>
-                        <div>
+                        <div className="w-[430px] h-[220px] border border-dotted mt-2 rounded-xl p-6">
                             <h4>Chefs name</h4>
                             <p>Master chefs in dhaka</p>
                             <p>

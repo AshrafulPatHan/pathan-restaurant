@@ -22,4 +22,16 @@
 }
 
 
+/* Reservation data */
+.reservation-main{
+    background-image: url("https://i.ibb.co.com/jvjv5LqN/pexels-horizon-content-2100060-3738730.jpg");
+    display: inline-flex;
+    width: 100vw;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+
 
