@@ -2,13 +2,12 @@ import "./Ui.css"
 
 const Ui = () => {
     return (
-        <div className="text-white mb-7 flex-center ">
+        <div className=" mb-7 flex-center ">
             <h2 className="text-4xl font-semibold text-center mb-12">Color</h2>
             <div className="flex items-center border border-white/10">
                 <div className="bg-[var(--black)] w-28 h-28  "></div>
                 <div className="bg-[var(--pc)]  w-28 h-28  "></div>
                 <div className="bg-[var(--pc2)] w-28 h-28 "></div>
-                <div className="bg-[var(--pc3)] w-28 h-28 "></div>
                 <div className="bg-[var(--sc)]  w-28 h-28 "></div>
             </div>
 
@@ -49,19 +48,29 @@ const Ui = () => {
             <div className="flex items-start justify-center gap-28">
                 <div className="flex flex-col gap-5 items-start ">
                     <button className="btn-primary">
-                        button
+                        Button
                     </button>
                     <button className="btn-sec">
-                        button
+                        Button
                     </button>
                 </div>
                 <div className="flex flex-col gap-5 items-start ">
                     <button className="btn-border">
-                        button
+                        Button
                     </button>
                     <button className="btn-border-black">
-                        button
+                        Button
                     </button>
+                </div>
+            </div>
+            <div className="flex items-start justify-center gap-28 mt-5">
+                <div className="flex flex-col gap-5 items-start ">
+                    <button className="hero-btn">
+                        Button
+                    </button>
+                </div>
+                <div className="flex flex-col gap-5 items-start ">
+                    
                 </div>
             </div>
         </div>

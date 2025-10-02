@@ -6,7 +6,6 @@
     --black: #1E1E1E; /* black color */
     --pc: 	hsl(250, 22%, 16%); /* primary color 1 #232032 */
     --pc2: 	hsl(248, 14%, 22%); /* primary color 2 #32303F */
-    --pc3: 	hsl(248, 18%, 18%); /* primary color 3 #272535 */
     --sc: #c4984e; /* secondary color */
     --margin-primary:160px;
     --margin-mid:80px;
@@ -22,9 +21,6 @@
     }
     .bg-primary2 {
         @apply bg-[var(--pc2)];
-    }
-    .bg-primary3 {
-        @apply bg-[var(--pc3)];
     }
     .bg-black {
         @apply bg-[var(--black)];

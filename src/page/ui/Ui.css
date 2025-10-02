@@ -1,23 +1,41 @@
 @import "tailwindcss";
 
+
 /* utilities class */
 @layer utilities {
 
     /* background color */
     .btn-primary {
-        @apply px-12 py-4 text-sm bg-[var(--sc)] text-white rounded-lg font-semibold hover:bg-[var(--pc2)] transition-colors ;
+        @apply text-white px-12 py-4 text-sm bg-[var(--sc)] rounded-lg font-semibold hover:bg-[var(--pc2)] transition-colors ;
     }
 
     .btn-sec {
-        @apply px-12 py-4 text-sm bg-[var(--pc2)] text-white rounded-lg font-semibold hover:bg-[var(--sc)] transition-colors;
+        @apply text-white px-12 py-4 text-sm bg-[var(--pc2)] rounded-lg font-semibold hover:bg-[var(--sc)] transition-colors;
     }
 
     .btn-border {
-        @apply px-12 py-4 text-sm border-2 border-[var(--sc)] text-white rounded-lg font-semibold hover:bg-[var(--sc)] transition-colors;
+        @apply px-12 py-4 text-sm border-2 border-[var(--sc)] rounded-lg font-semibold hover:bg-[var(--sc)] transition-colors;
     }
 
     .btn-border-black {
-        @apply px-12 py-4 text-sm border-2 border-[var(--pc2)] text-white rounded-lg font-semibold hover:bg-[var(--pc2)] transition-colors;
+        @apply px-12 py-4 text-sm border-2 border-[var(--pc2)] rounded-lg font-semibold hover:bg-[var(--pc2)] transition-colors;
     }
 
+}
+
+/* hero button */
+.hero-btn{
+    font-weight: 700;
+    color: black;
+    position: relative;
+}
+.hero-btn::before{
+    content: " ";
+    position: absolute;
+    width: 100%;
+    height: 1.8px;
+
+    background-color: var(--sc);
+    bottom: -2px;
+    left: 0;
 }
