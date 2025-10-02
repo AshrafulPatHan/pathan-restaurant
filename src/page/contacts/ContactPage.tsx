@@ -13,13 +13,13 @@ const ContactPage = () => {
             <div className="bg-white">
                 {/* section 1 */}
                 <div className="background-image-cont h-[50vw] lg:h-[30vw] mt-m  flex-center ">
-                    <p className="text-c-sec italic">Enjoy your time in our restaurant with pleasure</p>
-                    <h3 className="text-heading">Our Restaurants Contacts</h3>
+                    <p className="color-text text-lg">Enjoy your time in our restaurant with pleasure</p>
+                    <h3 className="text-hero ">Our Restaurants Contacts</h3>
                 </div>
                 {/* section 2 */}
                 <div className="pt-h flex flex-col lg:flex-row gap-8 justify-center mx-auto mb-m ">
-                    <div className="w-[430px] h-[200px] flex flex-col lg:flex-row items-center gap-4 bg-[#F6F6F6] hover:bg-white border border-dotted p-4 rounded-md ">
-                        <div className="bg-white w-[50px] h-[50px] border border-black/70 border-dotted rounded-md flex-center ">
+                    <div className="w-[430px] h-[200px] flex flex-col lg:flex-row items-center gap-4 bg-[#F6F6F6] hover:bg-white border border-[#ddd] border-dotted p-4 rounded-md ">
+                        <div className="bg-white w-[50px] h-[50px] border border-[#ddd] border-dotted rounded-md flex-center ">
                             <img src={map} alt="icon" className=" " />
                         </div>
                         <div className="w-[300px] ">
@@ -28,8 +28,8 @@ const ContactPage = () => {
                             <a href="#" className="text-black/70 mt-4 mb-3 text-xs">USA 27TH Brooklyn NY</a>
                         </div>
                     </div>
-                    <div className="w-[430px] h-[200px] flex flex-col lg:flex-row items-center gap-4 bg-[#F6F6F6] hover:bg-white border border-dotted p-4 rounded-md ">
-                        <div className="bg-white w-[50px] h-[50px] border border-black/70 border-dotted rounded-md flex-center ">
+                    <div className="w-[430px] h-[200px] flex flex-col lg:flex-row items-center gap-4 bg-[#F6F6F6] hover:bg-white border border-[#ddd] border-dotted p-4 rounded-md ">
+                        <div className="bg-white w-[50px] h-[50px] border border-[#ddd] border-dotted rounded-md flex-center ">
                             <img src={Call} alt="icon" className="  " />
                         </div>
                         <div className="w-[300px] ">
@@ -38,8 +38,8 @@ const ContactPage = () => {
                             <a href="#" className="text-black/70 mt-4 mb-3 text-xs">+489756412322 +123456789222</a>
                         </div>
                     </div>
-                    <div className="w-[430px] h-[200px] flex flex-col lg:flex-row items-center gap-4 bg-[#F6F6F6] hover:bg-white border border-dotted p-4 rounded-md ">
-                        <div className="bg-white w-[50px] h-[50px] border border-black/70 border-dotted rounded-md flex-center ">
+                    <div className="w-[430px] h-[200px] flex flex-col lg:flex-row items-center gap-4 bg-[#F6F6F6] hover:bg-white border border-[#ddd] border-dotted p-4 rounded-md ">
+                        <div className="bg-white w-[50px] h-[50px] border border-[#ddd] border-dotted rounded-md flex-center ">
                             <img src={mail} alt="icon" className=" " />
                         </div>
                         <div className="w-[300px] ">
