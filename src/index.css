@@ -61,7 +61,7 @@
 
     /* text style */
     .text-heading{
-        @apply font-bold text-white text-4xl ;
+        @apply font-bold text-4xl ;
     }
 
     /* margin high */

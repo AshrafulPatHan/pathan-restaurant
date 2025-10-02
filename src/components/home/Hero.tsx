@@ -18,12 +18,12 @@ const Hero = () => {
                 <p className="text-c-sec italic font-semibold">
                     Enjoy your time in our Restaurant with pleasure.
                 </p>
-                <h1 className="text-heading max-w-3xl mx-auto">
+                <h1 className="text-6xl font-bold max-w-3xl mx-auto leading-[1.2] text-white">
                     Welcome to The Forked Premium Restaurant
                 </h1>
                 <button className="btn-primary mt-6">Start Explore</button>
             </div>
-        </div>
+        </div>  
     );
 };
 
