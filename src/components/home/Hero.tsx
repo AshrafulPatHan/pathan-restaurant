@@ -15,10 +15,10 @@ const Hero = () => {
 
             {/* Text & Button */}
             <div className="absolute inset-0 flex flex-col items-center justify-center text-center px-4 z-20">
-                <p className="text-c-sec italic font-semibold">
+                <p className="color-text">
                     Enjoy your time in our Restaurant with pleasure.
                 </p>
-                <h1 className="text-6xl font-bold max-w-3xl mx-auto leading-[1.2] text-white">
+                <h1 className="text-hero">
                     Welcome to The Forked Premium Restaurant
                 </h1>
                 <button className="btn-primary mt-6">Start Explore</button>

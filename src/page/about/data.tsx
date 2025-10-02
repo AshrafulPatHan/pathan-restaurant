@@ -8,19 +8,19 @@ const AboutData = () => {
                     <p className="font-bold text-5xl text-c-sec ">254</p>
                     <button className="bg-primary border border-white/30 px-5 py-2 rounded-md text-white ">Number Restaurant</button>
                 </div>
-                <div className="w-[0.5px] h-5 border-[0.5px] border-white border-dotted "></div>
+                <div className="w-[0.5px] h-5 border-[0.5px] border-white border-dashed "></div>
 
                 <div className="flex flex-col items-center gap-5">
                     <p className="font-bold text-5xl text-c-sec ">12168</p>
                     <button className="bg-primary border border-white/30 px-5 py-2 rounded-md text-white ">Number Restaurant</button>
                 </div>
-                <div className="w-[0.5px] h-5 border-[0.5px] border-white border-dotted "></div>
+                <div className="w-[0.5px] h-5 border-[0.5px] border-white border-dashed "></div>
 
                 <div className="flex flex-col items-center gap-5">
                     <p className="font-bold text-5xl text-c-sec ">172</p>
                     <button className="bg-primary border border-white/30 px-5 py-2 rounded-md text-white ">Number Restaurant</button>
                 </div>
-                <div className="w-[0.5px] h-5 border-[0.5px] border-white border-dotted "></div>
+                <div className="w-[0.5px] h-5 border-[0.5px] border-white border-dashed "></div>
 
                 <div className="flex flex-col items-center gap-5">
                     <p className="font-bold text-5xl text-c-sec ">732</p>

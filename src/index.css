@@ -63,6 +63,14 @@
     .text-heading{
         @apply font-bold text-4xl ;
     }
+    /* text for hero section */
+    .text-hero{
+        @apply text-6xl font-bold max-w-3xl mx-auto leading-[1.2] text-white ;
+    }
+    /* colorfull text on italic  */
+    .color-text{
+        @apply text-sm text-[var(--sc)] italic font-semibold ;
+    }
 
     /* margin high */
     .mx-h{
