@@ -6,7 +6,7 @@
 
     /* background color */
     .btn-primary {
-        @apply text-white px-12 py-4 text-sm bg-[var(--sc)] rounded-lg font-semibold hover:bg-[var(--pc2)] transition-colors ;
+        @apply text-white px-12 py-4 text-sm bg-radial-[at_25%_25%] from-[var(--sc)] to-[var(--sc2)] to-90% rounded-lg font-semibold hover:from-[var(--pc2)] hover:to-[var(--pc2)] transition-colors ;
     }
 
     .btn-sec {
@@ -26,7 +26,6 @@
 /* hero button */
 .hero-btn{
     font-weight: 700;
-    color: black;
     position: relative;
 }
 .hero-btn::before{
@@ -36,6 +35,6 @@
     height: 1.8px;
 
     background-color: var(--sc);
-    bottom: -2px;
+    bottom: -5px;
     left: 0;
 }

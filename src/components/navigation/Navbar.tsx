@@ -41,7 +41,7 @@ const Navbar = () => {
                         </button>
                         <Link
                             to="/"
-                            className="btn-primary"
+                            className="hero-btn text-white hover:text-[var(--sc)] "
                         >
                             RESERVATION
                         </Link>

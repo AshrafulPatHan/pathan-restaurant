@@ -7,6 +7,7 @@
     --pc: 	hsl(250, 22%, 16%); /* primary color 1 #232032 */
     --pc2: 	hsl(248, 14%, 22%); /* primary color 2 #32303F */
     --sc: #c4984e; /* secondary color */
+    --sc2: #e29c0f; /* secondary color */
     --margin-primary:160px;
     --margin-mid:80px;
     --margin-low:60px;
@@ -26,6 +27,9 @@
         @apply bg-[var(--black)];
     }
     .bg-sec {
+        @apply bg-[var(--sc)];
+    }
+    .bg-sec2 {
         @apply bg-[var(--sc)];
     }
 
