@@ -69,7 +69,7 @@
     }
     /* text for hero section */
     .text-hero{
-        @apply text-6xl font-bold max-w-3xl mx-auto leading-[1.2] text-white text-center ;
+        @apply text-2xl md:text-6xl font-bold max-w-3xl mx-auto leading-[1.2] text-white text-center ;
     }
     /* colorfull text on italic  */
     .color-text{

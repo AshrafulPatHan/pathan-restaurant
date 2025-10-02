@@ -1,11 +1,11 @@
 const PopularBlog = () => {
     return (
-        <div className="flex-center bg-[#1c1a2c] blog-images-home">
-            <div className="max-w-[1500px] h-[700px] mx-auto flex flex-col lg:flex-row justify-between text-white/90 ">
+        <div className="flex-center bg-[#1c1a2c] blog-images-home mt-m">
+            <div className="max-w-[1500px] h-auto lg:h-[700px] mx-auto flex flex-col lg:flex-row justify-between text-white/90 ">
                 {/* Left Side */}
-                <div className="relative w-full lg:w-[60vw] h-full">
+                <div className="w-full lg:w-[60vw] h-full flex flex-col justify-end pb-5 pt-12 pl-5 lg:pl-0 lg:pt-0 lg:pb-16">
                     {/* Overlay Content */}
-                    <div className="absolute bottom-10 left-10 max-w-[80%]">
+                    <div className="max-w-[80%]">
                         <p className="text-4xl font-bold text-yellow-500">66</p>
                         <p className="italic mt-4 leading-relaxed text-white">
                             "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium 
@@ -20,7 +20,7 @@ const PopularBlog = () => {
                 </div>
 
                 {/* Right Side */}
-                <div className="w-full lg:w-1/2 bg-[#1c1a2c] flex flex-col items-center justify-center px-6 lg:px-16 text-center">
+                <div className="w-full lg:w-1/2 bg-[#1c1a2c] flex flex-col items-center justify-center px-6 lg:px-16 py-5 lg:py-0 text-center">
                     <p className="text-yellow-500 italic mb-2">Our Last News</p>
                     <h2 className="text-4xl font-bold mb-2">
                         Upcoming Events <span className="text-yellow-500">&</span> News

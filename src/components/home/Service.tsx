@@ -7,13 +7,13 @@ import CornBig from "../../assets/icon/wheat.svg";
 const Service = () => {
     return (
         <section className="bg-white py-low">
-            <div className="max-w-[1500px] mx-auto bg-[#F6F6F6] p-6 rounded-md border-[1.5px] border-[#ddd] border-dashed ">
-                <div className="bg-white p-6 rounded-xl border-[1.5px] border-[#ddd] border-dashed flex flex-col items-center gap-5 ">
+            <div className="max-w-[1500px] mx-auto bg-[#F6F6F6] p-2 md:p-6 rounded-md border-[1.5px] border-[#ddd] border-dashed ">
+                <div className="bg-white p-2 md:p-6 rounded-xl border-[1.5px] border-[#ddd] border-dashed flex flex-col items-center gap-5 ">
                     <p className="text-c-sec italic">Why people choose us</p>
                     <h3 className="text-heading">Prepare For First Class Service</h3>
                     <img src={CornBig} alt="icon" className="w-[42px] h-[42px] " />
-                    <div className="flex flex-col lg:flex-row items-center gap-5">
-                        <div className="relative w-[400px] h-[300px] shadow-sm rounded-lg overflow-hidden">
+                    <div className="flex flex-col xl:flex-row items-center gap-5">
+                        <div className="relative w-auto sm:w-[400px] h-[300px] shadow-sm rounded-lg overflow-hidden">
                             {/* Image Background */}
                             <img
                                 className="absolute inset-0 w-full h-full object-cover"
@@ -35,7 +35,7 @@ const Service = () => {
                                 <p>01.</p>
                             </div>
                         </div>
-                        <div className="relative w-[400px] h-[300px] shadow-sm rounded-lg overflow-hidden">
+                        <div className="relative  w-auto sm:w-[400px] h-[300px] shadow-sm rounded-lg overflow-hidden">
                             {/* Image Background */}
                             <img
                                 className="absolute inset-0 w-full h-full object-cover"
@@ -55,7 +55,7 @@ const Service = () => {
                                 <p>02.</p>
                             </div>
                         </div>
-                        <div className="relative w-[400px] h-[300px] shadow-sm rounded-lg overflow-hidden">
+                        <div className="relative  w-auto sm:w-[400px] h-[300px] shadow-sm rounded-lg overflow-hidden">
                             {/* Image Background */}
                             <img
                                 className="absolute inset-0 w-full h-full object-cover"

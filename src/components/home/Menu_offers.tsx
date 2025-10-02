@@ -3,9 +3,9 @@ import "./home.css";
 const Menu_offers = () => {
   return (
     <div className="offers-images relative flex items-center justify-center pb-h bg-black/60">
-      <div className="max-w-[1500px] w-full flex text-white pt-low px-6">
+      <div className="max-w-[1500px] w-full flex flex-col md:flex-row text-white pt-low px-6">
         {/* Left Side */}
-        <div className="w-[35%] pr-12">
+        <div className="w-auto md:w-[35%] pr-12">
           <h2 className="text-sm text-c-sec font-bold italic mb-2">
             Special menu offers.
           </h2>
@@ -16,16 +16,16 @@ const Menu_offers = () => {
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas in
             pulvinar neque. Nulla finibus lobortis pulvinar.
           </p>
-          <button className="px-6 py-3 bg-yellow-600 hover:bg-yellow-700 text-white font-semibold rounded">
+          <button className="btn-primary mb-5 md:mb-0">
             View Full Menu
           </button>
         </div>
 
         {/* Divider */}
-        <div className="w-[1px] bg-white/30 mx-8"></div>
+        <div className="w-[1px] bg-white/30 mx-8 hidden md:flex"></div>
 
         {/* Right Side */}
-        <div className="flex flex-col gap-6 w-[55%]">
+        <div className="flex flex-col gap-6 w-auto md:w-[55%]">
           {[
             { no: "01.", name: "Soft shell crab", price: "$29" },
             { no: "02.", name: "Victoria's Filet Mignon", price: "$49" },
